@@ -2,7 +2,7 @@ def mask_word(word, guessed_letters):
     return " ".join([letter if letter in guessed_letters else "_" for letter in word])
 
 
-def is_word_guessed(word, guessed_letters):
+def word_guessed(word, guessed_letters):
     return all(letter in guessed_letters for letter in word)
 
 
