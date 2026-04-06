@@ -1,4 +1,4 @@
-# How to Run the Game
+How to Run the Game
 
 1. Download files from Github
 2.Open the project in PyCharm
@@ -8,7 +8,7 @@
    python src/game.py
 5. Enter letter guesses when prompted
 
-# Test Matrix
+ Test Matrix
 
 | Category | Test Case | Input | Expected Result | Actual Result       |
 |           |           |          |                     |             |
@@ -22,9 +22,9 @@
 | Edge Case | Lose condition | slices reach 0 | Lose message displayed | Pass |
 
 
-# Manual Test Transcript
+ Manual Test Transcript
 
-# Test Run 1 – Win Scenario
+ Test Run 1 – Win Scenario
 Secret word: miramar
 
 Word: _ _ _ _ _ _ _
@@ -74,7 +74,7 @@ Word was: miramar
 Result: PASS  
 
 
-# Test Run 2 – Lose Scenario
+ Test Run 2 – Lose Scenario
 Secret word: slime
 
 Word: _ _ _ _ _
@@ -110,7 +110,7 @@ Input: w = Slice lost
 Result: Loss of a slice
 
 
-# Test Run 4 – Invalid Input
+ Test Run 4 – Invalid Input
 Secret word: watermelon  
 
 Word: w _ _ _ _ _ _ _ _ _
@@ -125,9 +125,9 @@ Guess a letter:
 Result: Loss of a slice
 
 
-# Edge Case Testing: All worked successfully
+ Edge Case Testing: All worked successfully
 
-# Summary
+ Summary
 All core gameplay paths were tested and worked succesffuly
 
 The game behaves as expected and meets all functional requirements.
